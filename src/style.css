@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    
 }
 
 h1 {
@@ -43,7 +44,7 @@ li {
     height: 64px;
     width: 64px;
 }
-.weather-temperature strong {
+.weather-temperature {
     color: rgb(33, 33, 33);
     font-size: 64px;
     line-height: 1;
@@ -84,4 +85,18 @@ opacity: 0.5;
 }
 .weather-forecast-temperatures {
     font-size: 13px;
+}
+@media (max-width: 600px) {
+    .weather-temperature {
+    font-size: 38px;
+   }
+   .weather-temperature .units  {
+  
+    position: relative;
+    font-size: 11px;
+    top: -26px;
+   }
+   li {
+    font-size: 13px;
+   }
 }
