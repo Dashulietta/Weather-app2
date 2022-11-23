@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
 }
 
 h1 {
@@ -38,6 +40,10 @@ li {
 }
 .overview {
   margin-bottom: 20px;  
+}
+.description li  {
+    text-transform: capitalize;
+   
 }
 .weather-temperature img {
     margin-right: 5px ;
